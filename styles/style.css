@@ -52,31 +52,35 @@ header {
     color: #FFFFFF;
 }
 
-.button{
+.button {
     margin-left: 110px;
 }
-.btn{
+
+.btn {
     width: 187px;
     height: 56px;
     border: none;
     border-radius: 5px;
     background-color: #DD0000;
-    box-shadow:inset 0 0 0 0 #f9e506;
-    transition: ease-out 0.3s; 
+    box-shadow: inset 0 0 0 0 #f9e506;
+    transition: ease-out 0.3s;
     outline: none;
     cursor: pointer;
 }
-.btn:hover{
+
+.btn:hover {
     box-shadow: inset 187px 0 0 0 #f9e506;
 
 }
-.btn a{
+
+.btn a {
     text-decoration: none;
     font-weight: 600;
     font-size: 20px;
     color: #FFFFFF;
 }
-.fa-angle-right{
+
+.fa-angle-right {
     padding-left: 10px;
 }
 
@@ -84,9 +88,92 @@ header {
     height: 100%;
     width: 50%;
 }
-.banner-image img{
+
+.banner-image img {
     width: 581px;
     height: 613px;
     margin-top: 37px;
 
+}
+
+/* <!--=================== blog sesction ============ --> */
+
+.transfer-blogs{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+.blogs-area{
+    height: 1134px;
+    width: 1330px;
+    display: flex;
+    gap: 24px;
+    align-items: stretch;
+}
+.blog-buttons-area{
+    width: 312px;
+}
+
+.blog-buttons{
+    width: 312px;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #161616;
+    border-radius: 10px;
+}
+.blog-button{
+    height: 64px;
+    width: 252px;
+    border-radius: 10px;
+    background-color: rgb(197, 31, 31);
+}
+.blog-button a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+}
+.blogs{
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.blog{
+    height: 362px;
+    width: 312px;
+    box-shadow: 1px 1px 10px 1px gray;
+}
+.blog-info{
+    padding: 20px;
+}
+.blog-info button{
+    width: 100px;
+    height: 32px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.blog-info h3{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    padding: 15px 0 20px 0;
+
+}
+.icon-data{
+    display: flex;
+    align-items: center;
+}
+.time{
+    padding-right: 10px;
+}
+.chat{
+    padding-left: 30px;
+    padding-right: 10px;
 }
