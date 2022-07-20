@@ -241,3 +241,52 @@ hr{
     color: #B9B9B9;
     font-size: 25px;
 }
+
+/*=============== upcoming match css============= */
+
+.matches-area{
+    width: 1330px;
+    display: flex;
+    gap: 24px;
+    align-items: stretch;
+}
+.upcoming-matches{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.matches{
+    width: 312px;
+    height: 242px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flags{
+    display: flex;
+    align-items: center;
+   
+}
+.flags h3{
+    padding: 0 21px;
+}
+.match-info{
+    padding-top: 20px;
+    text-align: center;
+
+}
+.match-info h2{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.match-info p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #4D4D4D;
+}
