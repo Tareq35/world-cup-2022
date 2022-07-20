@@ -126,6 +126,30 @@ header {
     background-color: #161616;
     border-radius: 10px;
 }
+.upcoming-button{
+    height: 64px;
+    width: 252px;
+    border-radius: 10px;
+    background-color: #FFFFFF
+}
+.upcoming-button a{
+    text-decoration: none;
+    color: #161616;
+    font-weight: 600;
+    font-size: 20px;
+}
+.all-group{
+    height: 64px;
+    width: 252px;
+    border-radius: 10px;
+    background-color: #FFFFFF
+}
+.all-group a{
+    text-decoration: none;
+    color: #161616;
+    font-weight: 600;
+    font-size: 20px;
+}
 .blog-button{
     height: 64px;
     width: 252px;
@@ -147,7 +171,8 @@ header {
 .blog{
     height: 362px;
     width: 312px;
-    box-shadow: 1px 10px 15px 0.5px gray;
+    border-radius: 11px 11px 0px 0px;
+    box-shadow: 1px 1px 10px 0.5px gray;
 }
 .blog-image img{
     width: 100%;
@@ -185,7 +210,7 @@ header {
     width: 100%;
     text-align: center;
     margin-bottom: 60px;
-    visibility: hidden; 
+    visibility: hidden;
     
 }
 #view-all-button button{
